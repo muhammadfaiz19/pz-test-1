@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #329adf;
+  --secondary-color: #36df7c;
+  --text-color: #0f0f0f,
+  --background-color: #f0f0f0;
+}
+
+body {
+  font-family: monospace;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  height: 100vh;
+}
+
+header {
+  max-width: 1024px;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+section {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 3rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+input,
+button, 
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>My Skills Showcase</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Skills Showcase</h1>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a web developer passionate about creating interactive and
+          responsive websites.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="interactive">
+        <h2>Interactive Demo</h2>
+        <form id="form-skills">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+          <label for="skill">Skill:</label>
+          <select id="skill" required>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+          </select>
+          <button type="submit">Submit</button>
+        </form>
+        <div id="message"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Muhammad Faiz</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
